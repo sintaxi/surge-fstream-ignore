@@ -24,7 +24,7 @@ var originalReadFile = fs.readFile
 fs.readFile = function (filename, options, callback) {
   if (typeof options === 'function') {
     callback = options
-    options = false
+    options = {}
   }
 
   parallelCount++

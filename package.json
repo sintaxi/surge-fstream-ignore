@@ -12,13 +12,13 @@
     "test": "tap test/*.js --cov"
   },
   "dependencies": {
-    "fstream": "^1.0.0",
-    "inherits": "2",
-    "minimatch": "^3.0.0"
+    "fstream": "1.0.12",
+    "inherits": "2.0.4",
+    "minimatch": "7.4.6"
   },
   "devDependencies": {
-    "mkdirp": "",
-    "rimraf": "",
+    "mkdirp": "0.5.6",
+    "rimraf": "3.0.2",
     "tap": "^5.7.1"
   },
   "license": "ISC",
