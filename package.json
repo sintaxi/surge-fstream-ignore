@@ -12,7 +12,7 @@
     "test": "tap test/*.js --cov",
     "preversion": "npm test",
     "version": "npm publish",
-    "postversion": "git push --no-verify && git push --tags --no-verify && git push --no-verify",
+    "postversion": "git push --no-verify && git push --tags --no-verify && git push --no-verify"
   },
   "dependencies": {
     "fstream": "1.0.12",
